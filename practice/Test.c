@@ -6,6 +6,6 @@
 
 int main() {
     // TODO: implement me
-    printf("Hello World!");
+    printf("Hello World! \n");
     return 0;
 }
