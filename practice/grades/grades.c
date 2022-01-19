@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int grades;
+    int grades[3];
     int average;
 
     grades[0] = 80;
-    /* TODO: define the missing grade
-       so that the average will sum to 85. */
+    grades[1] = 85;
     grades[2] = 90;
 
     average = (grades[0] + grades[1] + grades[2]) / 3;
