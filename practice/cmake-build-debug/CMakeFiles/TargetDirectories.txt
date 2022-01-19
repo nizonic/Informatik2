@@ -1,3 +1,6 @@
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/Informatik2.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/grades.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/Variables.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/helloworld.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/edit_cache.dir

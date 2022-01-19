@@ -1,16 +1,11 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include <stdio.h>  // imports some standard functions (like "printf()")
 
-using namespace std;
+// common form of the "main" function
+// "main" is what's actually executed when running the program
+// of course you can call other functions from "main"
 
-int main()
-{
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+int main() {
+    // TODO: implement me
+    printf("Hello World! \n");
+    return 0;
 }
