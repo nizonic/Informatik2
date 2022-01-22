@@ -4,13 +4,16 @@ project(Informatik2 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(test
-        helloworld/test.c)
+        1_helloworld/test.c)
 
-add_executable(Variables
-        variables/variables.c)
+add_executable(1_helloworld
+        1_helloworld/helloworld.c)
 
-add_executable(helloworld
-        helloworld/helloworld.c)
+add_executable(2_variables
+        2_variables/variables.c)
 
-add_executable(grades
-        grades/grades.c)
+add_executable(3_grades
+        3_grades/grades.c)
+
+add_executable(4_arrays
+        4_arrays/average.c)
