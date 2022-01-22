@@ -23,3 +23,6 @@ add_executable(5_conditions
 
 add_executable(6_strings
         6_strings/strings.c)
+
+add_executable(7_for
+        7_for/factorial.c)
