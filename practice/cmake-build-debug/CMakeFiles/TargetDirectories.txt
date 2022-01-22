@@ -6,5 +6,6 @@ C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/4
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/7_for.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/5_conditions.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/6_strings.dir
-C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/8_while.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/edit_cache.dir

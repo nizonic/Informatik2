@@ -26,3 +26,6 @@ add_executable(6_strings
 
 add_executable(7_for
         7_for/factorial.c)
+
+add_executable(8_while
+        8_while/while.c)
