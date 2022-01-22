@@ -17,3 +17,9 @@ add_executable(3_grades
 
 add_executable(4_arrays
         4_arrays/average.c)
+
+add_executable(5_conditions
+        5_conditions/conditions.c)
+
+add_executable(6_strings
+        6_strings/strings.c)
