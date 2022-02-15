@@ -3,6 +3,7 @@ C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/t
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/01_helloworld.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/03_grades.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/02_variables.dir
+C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/enum.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/07_for.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/04_arrays.dir
 C:/Users/nicom/CLionProjects/Informatik2/practice/cmake-build-debug/CMakeFiles/06_strings.dir

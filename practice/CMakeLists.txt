@@ -36,3 +36,5 @@ add_executable(09_func
 add_executable(10_static
         10_static/static.c)
 
+add_executable(enum
+        enum.c)
