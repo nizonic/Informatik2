@@ -8,6 +8,7 @@ int main() {
     int i;
     for (i = 0; i < 6; i++) {
         print_big(array[i]);
+        printf("%d\n", i);
     }
     return 0;
 }
