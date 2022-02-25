@@ -2,7 +2,8 @@
  * University of Zurich, Informatics II, Spring Semester 2022               *
  * Exercise 1 - Task 2                                                      *
  *                                                                          *
- * @author <your name>                                                      *
+ * @author Nico Manzoni                                                     *
+ * @date 25.02.2022                                                         *
  ****************************************************************************/
 
 #include <stdio.h>
