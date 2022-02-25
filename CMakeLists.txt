@@ -6,37 +6,37 @@ set(CMAKE_C_STANDARD 11)
 add_subdirectory(Exercises)
 
 add_executable(test
-        practice/01_helloworld/test.c)
+        Practice/01_helloworld/test.c)
 
 add_executable(01_helloworld
-        practice/01_helloworld/helloworld.c)
+        Practice/01_helloworld/helloworld.c)
 
 add_executable(02_variables
-        practice/02_variables/variables.c)
+        Practice/02_variables/variables.c)
 
 add_executable(03_grades
-        practice/03_grades/grades.c)
+        Practice/03_grades/grades.c)
 
 add_executable(04_arrays
-        practice/04_arrays/average.c)
+        Practice/04_arrays/average.c)
 
 add_executable(05_conditions
-        practice/05_conditions/conditions.c)
+        Practice/05_conditions/conditions.c)
 
 add_executable(06_strings
-        practice/06_strings/strings.c)
+        Practice/06_strings/strings.c)
 
 add_executable(07_for
-        practice/07_for/factorial.c)
+        Practice/07_for/factorial.c)
 
 add_executable(08_while
-        practice/08_while/while.c)
+        Practice/08_while/while.c)
 
 add_executable(09_func
-        practice/09_func/bigprint.c)
+        Practice/09_func/bigprint.c)
 
 add_executable(10_static
-        practice/10_static/static.c)
+        Practice/10_static/static.c)
 
 add_executable(enum
-        practice/enum.c)
+        Practice/enum.c)

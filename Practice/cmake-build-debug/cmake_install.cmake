@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nicom/CLionProjects/Informatik2/practice
+# Install script for directory: C:/Users/nicom/CLionProjects/Informatik2/Practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
