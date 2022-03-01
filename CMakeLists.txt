@@ -5,6 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_subdirectory(Exercises)
 
+add_subdirectory(Lecture)
+
 add_executable(test
         Practice/01_helloworld/test.c)
 
