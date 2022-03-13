@@ -22,7 +22,7 @@ void swap(int *xp, int *yp)
     int temp;
     for (i=0; i<= n-1; i++){
         k = i;
-        for (j = i+1; j<=n; j++){
+        for (j = i+1; j<n; j++){
             if (A[j] < A[k]){k=j;}
         }
         temp = A[i];
@@ -61,15 +61,14 @@ void evenOddSelectionSort(int A[], int n){
         if (A[i] % 2 == 0){E[e_count] = A[i]; e_count++;}
         else {O[o_count] = A[i];o_count++;}
     }
-	for (i=0; i<=e_count; i++){
-        printf("%f ", E[i]);
+	for (i=0; i<e_count; i++){
+        printf("%d ", E[i]);
     }
     printf("\n");
 
-    for (i=0; i<=o_count;i++){
-        printf("%f ", O[i]);
+    for (i=0; i<o_count;i++){
+        printf("%d ", O[i]);
     }
-
 }
 
 int main(int argc, const char * argv[]) {
