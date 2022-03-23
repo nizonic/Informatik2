@@ -17,3 +17,9 @@ add_executable(ex01_2
 
 add_executable(ex01_3
         01/ex01_3.c)
+
+add_executable(ex02_1
+        02/ex02_1.c)
+
+add_executable(ex02_2
+        02/ex02_2.c)
