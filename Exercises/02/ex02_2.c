@@ -8,14 +8,19 @@
 
 #include <stdio.h>
 
-// TODO: your implementation
+int fibonacci(int element)
+{
+    if (element <= 1)
+        return element;
+    return (fibonacci(element-1) + fibonacci(element-2));
+}
 
 int main() {
 	int input;
 	printf("Enter the number of blinks: ");
 	scanf("%d", &input);
 
-	// TODO: your implementation
+	printf("%d", fibonacci(input+1));
 
 	return 0;
 }
