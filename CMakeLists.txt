@@ -42,3 +42,6 @@ add_executable(10_static
 
 add_executable(enum
         Practice/enum.c)
+
+add_executable(mergesort
+        Practice/mergeSort.c)
