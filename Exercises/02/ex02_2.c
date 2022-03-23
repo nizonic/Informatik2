@@ -19,8 +19,7 @@ int main() {
 	int input;
 	printf("Enter the number of blinks: ");
 	scanf("%d", &input);
-
-	printf("%d", fibonacci(input+1));
+	printf("Number of blink patterns: %d", fibonacci(input+1));
 
 	return 0;
 }
