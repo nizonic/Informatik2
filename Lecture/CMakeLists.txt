@@ -5,3 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(HilbertCurve
         HilbertCurve.c)
+
+add_executable(countOccurrences
+        countOccurrences.c)
