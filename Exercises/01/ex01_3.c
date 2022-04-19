@@ -44,7 +44,7 @@ void gap_finder(int array[], int n){
             gap = array[i] - array[i-1];
         }
     }
-    printf("The biggest gap is between elements %d and %d , with a gap of %d", index -1, index, gap);
+    printf("The biggest gap is between elements %d and %d , with a gap of %d", index, index + 1, gap);
 }
 
 int main() {
