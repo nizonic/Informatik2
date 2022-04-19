@@ -57,16 +57,16 @@ void evenOddSelectionSort(int A[], int n){
     int e_count = 0;
     int o_count = 0;
     selectionSort(A, n);
-    for (i=0; i<=n; i++){
+    for (i=0; i<n; ++i){
         if (A[i] % 2 == 0){E[e_count] = A[i]; e_count++;}
-        else {O[o_count] = A[i];o_count++;}
+        else {O[o_count] = A[i]; o_count++;}
     }
-	for (i=0; i<e_count; i++){
+	for (i=0; i<e_count; ++i){
         printf("%d ", E[i]);
     }
     printf("\n");
 
-    for (i=0; i<o_count;i++){
+    for (i=0; i<o_count;++i){
         printf("%d ", O[i]);
     }
 }
