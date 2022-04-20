@@ -35,3 +35,12 @@ add_executable(ex03_1
 
 add_executable(ex03_1solution
         03/task_1_sol.c)
+
+add_executable(ex04_7
+        04/modifiedMergeSort.c)
+
+add_executable(ex04_6demo
+        04/task6_demo.c)
+
+add_executable(ex04_7solution
+        04/task7_sol.c)
