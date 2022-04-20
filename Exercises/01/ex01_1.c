@@ -10,7 +10,7 @@
 
 
 // hard-coded maximum length for input strings
-const int MAX_LENGTH = 1000;
+const int maxLength = 1000;
 
 int is_vowel(char A){
     if (A == 'a' || A == 'e' || A == 'o' || A == 'i' ||A == 'u'
@@ -19,7 +19,7 @@ int is_vowel(char A){
 }
 
 void BS(char A[]) {
-    char BS[MAX_LENGTH];
+    char BS[maxLength];
     int i;
     int add = 0;
     for (i=0; A[i] != '\0'; i++){
@@ -45,7 +45,7 @@ int count_vowels(char A[]){
 }
 
 int main() {
-	char input_string[MAX_LENGTH + 1];
+	char input_string[maxLength + 1];
 	printf("Enter a string: ");
 	scanf("%[^\n]s", input_string);
     printf("There are %d vowels in this string\n", count_vowels(input_string));

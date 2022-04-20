@@ -6,7 +6,7 @@
  ****************************************************************************/
 
 #include <stdio.h>
-const int MAX_LENGTH = 1000;
+const int maxLength = 1000;
 
 /**
  * Returns the position of the second smallest element in an array
@@ -74,7 +74,7 @@ int get_second(int arr[], int upper_limit, int smallest, int second_smallest) {
 
 int main() {
 	printf("Values of array separated by spaces (non-number to stop): ");
-	int arr[MAX_LENGTH];
+	int arr[maxLength];
 	int pos = 0;
 	while (scanf("%d", &arr[pos]) == 1) {
 		pos++;

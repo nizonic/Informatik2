@@ -7,7 +7,7 @@
  ****************************************************************************/
 
 #include <stdio.h>
-const int MAX_LENGTH = 1000;
+const int maxLength = 1000;
 
 void swap(int *xp, int *yp)
 {
@@ -49,7 +49,7 @@ void gap_finder(int array[], int n){
 
 int main() {
 	printf("Values of A separated by spaces (non-number to stop): ");
-	int timestamps[MAX_LENGTH];
+	int timestamps[maxLength];
 	int pos = 0;
     int i;
 	while (scanf("%d", &timestamps[pos]) == 1) {

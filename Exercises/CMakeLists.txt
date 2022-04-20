@@ -29,3 +29,6 @@ add_executable(ex02_1solution
 
 add_executable(ex02_2solution
         02/task3_sol.c)
+
+add_executable(ex03_1
+        03/ex03_1.c)

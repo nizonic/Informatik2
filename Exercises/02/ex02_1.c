@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 // hard-coded maximum length for input strings
-const int MAX_LENGTH = 1000;
+const int maxLength = 1000;
 
 int maximum2(int a, int b){
     if (a>=b)return a;
@@ -37,7 +37,7 @@ int secondSmallest(int array[], int length){
 
 int main() {
 	printf("Values of array separated by spaces (non-number to stop): ");
-	int arr[MAX_LENGTH];
+	int arr[maxLength];
 	int pos = 0;
 	while (scanf("%d", &arr[pos]) == 1) {
 		pos++;
