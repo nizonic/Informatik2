@@ -44,3 +44,15 @@ add_executable(ex04_6demo
 
 add_executable(ex04_7solution
         04/task7_sol.c)
+
+add_executable(heapsort
+        05/heapsort.c)
+
+add_executable(heapsort_sol
+        05/heapsort_sol.c)
+
+add_executable(quicksort
+        05/quicksort.c)
+
+add_executable(quicksort_sol
+        05/quicksort_sol.c)
