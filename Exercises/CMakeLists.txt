@@ -56,3 +56,9 @@ add_executable(quicksort
 
 add_executable(quicksort_sol
         05/quicksort_sol.c)
+
+add_executable(ex06_1
+        06/ex06_1.c)
+
+add_executable(ex06_2
+        06/ex06_2.c)
