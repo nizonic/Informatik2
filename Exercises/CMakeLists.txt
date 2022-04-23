@@ -62,3 +62,6 @@ add_executable(ex06_1
 
 add_executable(ex06_2
         06/ex06_2.c)
+
+add_executable(ex06_3
+        06/ex06_3.c)
