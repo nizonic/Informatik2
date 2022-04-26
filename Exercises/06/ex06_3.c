@@ -50,7 +50,7 @@ void displayList(struct Node *head){
 int anagramValidation(struct Node *head, struct Node *kopf){
     struct Node *current1 = head;
     struct Node *current2 = kopf;
-    while (current1 != NULL && current2 != NULL){
+    while (current1 != NULL){
         if (current1->data != current2->data){
             break;
         }
