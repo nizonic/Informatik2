@@ -31,7 +31,7 @@ void delete(struct Stack* stack){
     free(stack);
 }
 
-int is_empty(Stack* stack) {
+int isEmpty(Stack* stack) {
     if (stack->top == -1) {
         return 1;
     }
@@ -40,23 +40,23 @@ int is_empty(Stack* stack) {
     }
 }
 
-int is_full(Stack* stack){
+int isFull(Stack* stack){
     if (stack->top == stack->capacity - 1){
         return 1;
     }
     else return 0;
 }
 
-int get_capacity(struct Stack* stack){
+int getCapacity(struct Stack* stack){
     return stack->capacity -1;
 }
 
-int num_items(struct Stack* stack){
+int numItems(struct Stack* stack){
     return stack->top + 1;
 }
 
 int pop(struct Stack* stack){
-    if (is_empty(stack)){
+    if (isEmpty(stack)){
         printf("Error: Could not pop item. Stack is empty\n");
         return -1;
     }
@@ -65,7 +65,7 @@ int pop(struct Stack* stack){
 }
 
 int push(struct Stack* stack, int item){
-    if (is_full(stack)){
+    if (isFull(stack)){
         printf("Error: Could not push item %d onto stack. Stack is full.\n", item);
         return -1;
     }
@@ -76,7 +76,7 @@ int push(struct Stack* stack, int item){
 }
 
 int peek(struct Stack* stack){
-    if (is_empty(stack)){
+    if (isEmpty(stack)){
         printf("Stack is empty.\n");
         return -1;
     }
@@ -85,7 +85,7 @@ int peek(struct Stack* stack){
 }
 
 void print(struct Stack* stack) {
-    if (is_empty(stack)) {
+    if (isEmpty(stack)) {
         printf("Stack is empty.\n");
     }
     else {
@@ -96,12 +96,12 @@ void print(struct Stack* stack) {
     }
 }
 
-int is_equal(struct Stack* stack1, struct Stack* stack2){
-    if (num_items(stack1) != num_items(stack2)){
+int isEqual(struct Stack* stack1, struct Stack* stack2){
+    if (numItems(stack1) != numItems(stack2)){
         printf("The stacks are not equal.\n");
         return -1;
     }
-    for (int i = 0; i <= num_items(stack1); i++){
+    for (int i = 0; i <= numItems(stack1); i++){
         if (stack1->items[i] != stack2->items[i]) {
             printf("The stacks are not equal.\n");
             return -1;
@@ -112,7 +112,7 @@ int is_equal(struct Stack* stack1, struct Stack* stack2){
 }
 
 void reverse(struct Stack* stack){
-    int n = num_items(stack);
+    int n = numItems(stack);
     printf("Reversing stack.\n");
     for (int i = 0; i < n / 2; i++) {
         int temp = stack->items[i];
@@ -132,10 +132,10 @@ int main() {
     push(s1, 17);
     print(s1);
     print(s2);
-    printf("Check whether s1 is full: %d\n", is_full(s1));
-    printf("Check whether s2 is full: %d\n", is_full(s2));
-    printf("Number of elements in s1: %d\n", num_items(s1));
-    printf("Number of elements in s2: %d\n", num_items(s2));
+    printf("Check whether s1 is full: %d\n", isFull(s1));
+    printf("Check whether s2 is full: %d\n", isFull(s2));
+    printf("Number of elements in s1: %d\n", numItems(s1));
+    printf("Number of elements in s2: %d\n", numItems(s2));
     printf("Overflow test... ");
     push(s1, 99);
     printf("Element popped from s1: %d\n", pop(s1));
@@ -146,16 +146,16 @@ int main() {
     }
     print(s1);
     print(s2);
-    printf("Comparison of s1 with s2: %d\n", is_equal(s1, s2));
+    printf("Comparison of s1 with s2: %d\n", isEqual(s1, s2));
     printf("Element popped from s2: %d\n", pop(s2));
-    printf("Comparison of s1 with s2: %d\n", is_equal(s1, s2));
+    printf("Comparison of s1 with s2: %d\n", isEqual(s1, s2));
     for (int i = 0; i < 4; i++) {
         pop(s1);
     }
     print(s1);
     print(s2);
-    printf("Check whether s1 is empty: %d\n", is_empty(s1));
-    printf("Check whether s2 is empty: %d\n", is_empty(s2));
+    printf("Check whether s1 is empty: %d\n", isEmpty(s1));
+    printf("Check whether s2 is empty: %d\n", isEmpty(s2));
     printf("Underflow test... ");
     pop(s1);
     printf("Underflow test... ");
