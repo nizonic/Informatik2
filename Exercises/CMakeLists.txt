@@ -74,3 +74,6 @@ add_executable(ex07_3
 
 add_executable(ex07_4
         07/ex07_4.c)
+
+add_executable(BST
+        08/binarySearchTree.c)
