@@ -26,6 +26,13 @@ struct treeNode{
 struct treeNode* insert(struct treeNode* root, int value){
     struct treeNode* follower = NULL;
     struct treeNode* place = root;
+    if (root == NULL){
+        follower = malloc(sizeof(struct treeNode));
+        follower->value = value;
+        follower->left = NULL;
+        follower->right = NULL;
+        return follower;
+    }
     while (place != NULL){
         follower = place;
         if (place->value < value){
@@ -119,7 +126,17 @@ struct treeNode* delete(struct treeNode* root, int value){
 }
 
 void printTree(struct treeNode *root){
-
+    if (root == NULL) {
+        return;
+    }
+    if (root->left != NULL){
+        printf("%d ---- %d\n", root->value, root->left->value);
+        printTree(root->left);
+    }
+    if (root->right != NULL){
+        printf("%d ---- %d\n", root->value, root->right->value);
+        printTree(root->right);
+    }
 }
 
 int main(){
