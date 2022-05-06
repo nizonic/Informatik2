@@ -12,8 +12,8 @@ const int maxLength = 1000;
 /**
  * alternative Merge sort function, requires the following inputs:
  * @param array an array of integers
- * @param l index left
- * @param r index right
+ * @param l index lft
+ * @param r index rgt
  * @param m middle of the array
  * @return
  */

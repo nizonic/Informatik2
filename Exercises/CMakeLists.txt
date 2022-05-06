@@ -77,3 +77,9 @@ add_executable(ex07_4
 
 add_executable(BST
         08/binarySearchTree.c)
+
+add_executable(balancedBST
+        08/balancedBST.c)
+
+add_executable(ex09_4
+        09/ex09_4.c)
