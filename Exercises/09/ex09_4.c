@@ -15,11 +15,11 @@ struct node{
 void rightRotate(struct node* temp){
     struct node* g = temp->parent;
     struct node* left = temp->lft;
-    struct node* b = temp->lft;
+    temp->lft = left->rgt;
     if (left->rgt){
-        temp = b->parent;
+        left->rgt->parent = temp;
     }
-    g = left->parent;
+    left->parent = g;
     if (temp == g->lft){
         g->lft = left;
     }
