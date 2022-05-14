@@ -83,3 +83,6 @@ add_executable(balancedBST
 
 add_executable(ex09_4
         09/ex09_4.c)
+
+add_executable(hashtable
+        10/hashtable.c)
