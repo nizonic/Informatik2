@@ -45,3 +45,6 @@ add_executable(enum
 
 add_executable(mergesort
         Practice/mergeSort.c)
+
+add_executable(3
+        exam/3.c)
